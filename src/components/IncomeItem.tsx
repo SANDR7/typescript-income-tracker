@@ -2,8 +2,8 @@ import React from 'react'
 
 interface IncomeItemProps {
     income: any,
-    index: any,
-    removeIncome: any
+    index: number,
+    removeIncome: (i: number) => void
 }
 
 export const IncomeItem: React.FC<IncomeItemProps> = ({income, index, removeIncome}) => {
@@ -12,7 +12,7 @@ export const IncomeItem: React.FC<IncomeItemProps> = ({income, index, removeInco
     let month = date.getMonth() + 1;
     let year = date.getFullYear();
 
-    const removeHandle = (i: any) => {
+    const removeHandle = (i: number) => {
         removeIncome(i);
     }
 

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 15rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    .total-income {
+        font-size: 1.2em;
+        padding: 1em 2em;
+        background-color: #f0f0f0;
+        border-radius: .3em;
+    }
+}
+
+.income-form {
+    margin: 0 15rem;
+    input {
+        border: none;
+        padding: 1em;
+        margin: 0 .2em;
+        border-radius: .3em;
+        outline: none;
+        background-color: #d1d1d1;
+    }
+}
+.income-item {
+    margin: 2rem 15rem;
+    display: flex;
+    justify-content: space-between;
+}

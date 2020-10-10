@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Header } from './components/Header';
 import { IncomeForm } from './components/IncomeForm';
 import { IncomeList } from './components/IncomeList';
-
+import './styles/main.scss'
 
 const App: React.FC = () => {
   const [income, setIncome] = useState<any>([]);

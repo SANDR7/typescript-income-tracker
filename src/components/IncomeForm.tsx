@@ -10,7 +10,7 @@ export const IncomeForm: React.FC<IncomeFormProps> = ({
     setIncome
 }) => {
 
-    const desc: any = useRef<HTMLInputElement>(null);
+    const desc: any  = useRef<HTMLInputElement>(null);
     const date: any = useRef<HTMLInputElement>(null);
     const price: any = useRef<HTMLInputElement>(null);
 
